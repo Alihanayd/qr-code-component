@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Permanent+Marker&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  background: rgb(214, 226, 240);
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainbox {
+  margin: 120px 0;
+  width: 40vh;
+  height: 65vh;
+  border: 1mm;
+  border-style: solid;
+  color: white;
+  background: white;
+  border-radius: 15px;
+}
+.qrcode {
+  background: url("./images/image-qr-code.png") no-repeat;
+  background-size: 250px;
+
+  margin-top: 1.5vh;
+  margin-left: 1.5vh;
+  border-style: solid;
+  border-radius: 11px;
+  width: 250px;
+  height: 250px;
+}
+.text {
+  height: 120px;
+  width: 240px;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 14px;
+
+  color: rgb(172, 181, 190);
+  font-weight: 400;
+}
+span {
+  font-size: 19px;
+  font-weight: 700;
+  color: rgb(31, 50, 81);
+}
